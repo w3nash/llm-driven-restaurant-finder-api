@@ -1,5 +1,5 @@
 import express, { type Router } from 'express';
-import { executeController } from '../controllers/execute-controller.ts';
+import { executeController } from '../controllers/execute-controller.js';
 
 // Create a router instance
 const router: Router = express.Router();

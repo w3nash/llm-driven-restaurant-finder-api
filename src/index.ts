@@ -1,6 +1,6 @@
 import express, { type Express} from 'express';
 import dotenv from 'dotenv';
-import executeRouter from './routes/execute-route.ts';
+import executeRouter from './routes/execute-route.js';
 
 // Load environment variables from .env file
 dotenv.config();
