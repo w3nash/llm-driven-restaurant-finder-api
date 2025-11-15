@@ -31,7 +31,7 @@ The LLM-Driven Restaurant Finder API allows users to search for restaurants base
 }
 ```
 
-## Example Requests and Responses
+## Example Request and Response
 
 **Request:**
 
@@ -103,14 +103,14 @@ The API returns appropriate HTTP status codes and error messages:
 - Node.js environment
 - Dependencies:
   - Vercel AI SDK (`ai` package)
-  - @ai-sdk/huggingface: Ai SDK provider for Hugging Face models
+  - @ai-sdk/huggingface: AI SDK provider for Hugging Face models
 
 ## Technical Implementation
 
 The API is built using the following technologies:
 
 - **Vercel AI SDK**: Provides the core AI functionality
-- **@ai-sdk/huggingface**: Ai SDK provider for Hugging Face models
+- **@ai-sdk/huggingface**: AI SDK provider for Hugging Face models
 - **Zod**: A TypeScript-first schema validation library for input validation
 - **TypeScript**: For type safety and improved developer experience
 - **dotenv**: For securely loading environment variables
